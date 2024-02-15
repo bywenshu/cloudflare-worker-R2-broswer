@@ -1,5 +1,5 @@
 name = "r2test"
-main = "src/index.ts"
+main = "src/index.js"
 compatibility_date = "2023-03-01"
 
 workers_dev = false
@@ -8,7 +8,7 @@ workers_dev = false
 # Docs: https://developers.cloudflare.com/r2/api/workers/workers-api-usage/
 [[r2_buckets]]
 r2_buckets  = [
-    { binding = "BUCKET_bucketname", bucket_name = "bucketname"}
+    { binding = "BUCKET_bucketname", bucket_name = "bywenshu"}
 ]
 
 # HTTP Basic Auth 
